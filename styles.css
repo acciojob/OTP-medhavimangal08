@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 
-#code-container{
+.code-container{
 	display:flex;
 	gap:10px;
 }

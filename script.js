@@ -1,4 +1,4 @@
-let container = document.querySelector("#code-container");
+let container = document.querySelector("/code-container");
 for(let i = 0; i < 6; i++){
 	let field = document.createElement("input");
 	field.className = "code";

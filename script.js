@@ -13,8 +13,9 @@ for(let i = 0; i < inputfields.length; i++){
 		// Check if the input field contains a number
 		if (inputfields[i].value !== "" && i+1 < inputfields.length) {
 			// Focus on the next input field
-			inputfields[i+1].classList.add('focused');
-			inputfields[i].classList.remove('focused');
+			inputfields[i+1].classList.add("focused")
+			inputfields[i].classList.remove("focused")
+			
 			
 		}
 	});
@@ -24,7 +25,8 @@ for(let i = 0; i < inputfields.length; i++){
 		if (inputfields[i].value === "" && i-1 >= 0) {
 			// Focus on the previous input field
 			inputfields[i-1].classList.add("focused")
-			inputfields[i+1].classList.remove("focused")
+			inputfields[i].classList.remove("focused")
+
 			
 		}
 	});

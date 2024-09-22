@@ -4,6 +4,7 @@ for(let i = 0; i < 6; i++){
 	field.className = "code";
 	field.type = "number";
 	field.name = "otp";
+	field.maxLength = 1;
 	container.appendChild(field);
 }
 

@@ -1,13 +1,13 @@
 let container = document.querySelector(".code-container");
 for(let i = 0; i < 6; i++){
 	let field = document.createElement("input");
-	field.className = "code";
+	field.id = "code";
 	field.type = "number";
 	field.name = "otp";
 	container.appendChild(field);
 }
 
-let inputfields = document.querySelectorAll(".code");
+let inputfields = document.querySelectorAll("#code");
 for(let i = 0; i < inputfields.length; i++){
 	inputfields[i].addEventListener('input', function() {
 		// Check if the input field contains a number

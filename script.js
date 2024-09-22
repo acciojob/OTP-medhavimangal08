@@ -26,7 +26,6 @@ for(let i = 0; i < inputfields.length; i++){
 			// Focus on the previous input field
 			inputfields[i-1].classList.add("focused")
 			inputfields[i].classList.remove("focused")
-			inputfields[i+1].classList.remove("focused")
 
 
 			
